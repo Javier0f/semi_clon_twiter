@@ -1,0 +1,64 @@
+.Post{
+    height: max-content;
+    margin: 20px 0 0 0;
+    background: #59f;
+    padding: 1px 5px 5px 5px;
+
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+    transition: all .2s;
+}
+.Post p{
+    font-weight: 100;
+    font-size: 19px;
+}
+.Post img{
+    padding: 25px;
+    border-radius: 50%;
+    background: #555;
+}
+.Post .user{
+    height: min-content;
+    width: 230px;
+    position: relative;
+    left: -10px;
+    top: -10px;
+    font-size: 18px;
+}
+
+.acciones{
+    margin: -16px 0 0 0;
+    transition: all .2s;
+}
+
+.acciones ul{
+    z-index: 10;
+    padding: 20px 0 0 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-end;
+}
+.like{
+    background: #f57;
+    padding: 3px;
+    border-radius: 50px;
+}
+.comp{
+    background: #5ca;
+    padding: 3px;
+    border-radius: 50px;
+}
+.coment{
+    background: #59f;
+    padding: 3px;
+    border-radius: 50px;
+}
+.repost{
+    background: #58d;
+    padding: 3px;
+    padding: 3px 8px 0 8px;
+    border-radius: 50px;
+}

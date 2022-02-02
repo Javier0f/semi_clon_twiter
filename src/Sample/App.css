@@ -1,0 +1,33 @@
+.Post-Container{
+    width: 850px;
+    margin: 110px auto;
+    background: #9bf;
+    padding: 20px 10px 0 10px;
+    border-radius: 10px;
+}
+
+
+.MostrarMas{
+    background: #7cf;
+    color: #fff;
+    border: 2px solid #6af;
+    border-radius: 5px;
+    padding: 2px 4px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px 22.5rem;
+    transition: all .05s;
+}
+
+.MostrarMas:active{
+    background: #35f;
+    color: #fff;
+    border: 2px solid #46f;
+    border-radius: 5px;
+    padding: 2px 4px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px 22.5rem;
+}
